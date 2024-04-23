@@ -1,0 +1,17 @@
+.foodIcon {
+    border: 1px solid black;
+    width: 100px;
+}
+
+.foodCard {
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 120px 300px;
+    margin: 10px;
+    padding: 5px 15px 15px 15px;
+}
+
+.foodTitle {
+    grid-column: span 2;
+    font-size: large;
+}

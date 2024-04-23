@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+p {
+    margin: 0;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    width: 100vw;
+    background-color: #64748B;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: lightblue;
+    width: 100vw;
+    height: 100%;
+}
+
+.noMarginP {
+    margin: 0;
+}
